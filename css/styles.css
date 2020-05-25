@@ -1,4 +1,23 @@
+body {
+    text-align: center
+}
+
 /* Containers */
 .container-fluid{
     padding: 7% 15%;
+  }
+
+  .title-image {
+    max-width: 100%;
+  }
+
+  .description-section {
+      text-align: left;
+      padding-top: 10%;
+  }
+
+  .description-text
+  {
+    font-size: 1.58em;
+    line-height: 1.3em;
   }
