@@ -1,8 +1,4 @@
-/*Body Classes*/
-.current-job-title {
-  text-align: center;
-}
-
-.main-heading {
-  text-align: center;
-}
+/* Containers */
+.container-fluid{
+    padding: 7% 15%;
+  }
