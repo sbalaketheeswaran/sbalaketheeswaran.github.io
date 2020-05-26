@@ -5,43 +5,53 @@ body {
 }
 
 h1 {
-    font-size: 4.5em;
-    line-height: 90px;
-    margin-bottom: 12px;
-}
-
-body h1 {
     font-family: Open Sans, sans-serif;
     color: #3e92a3;
+    font-size: 3.5rem;
+    line-height: 1.5
 }
 
-body h2 {
+h2 {
     font-family: Roboto Slab, serif;
     color: #dfe0d4;
 }
 
-body a {
+a {
     color: #3e92a3;
 }
 
 /* Containers */
-.container-fluid {
-    padding: 7% 15%;
-}
-
-.avatar-image-container {
-    text-align: right;
+.general-placement {
+    padding: 5% 7%;
 }
 
 .description-section {
-    text-align: left;
+    text-align: center;
 }
 
 .description-text {
-    font-size: 1.58em;
+    font-size: 1.5em;
     line-height: 1.3em;
+    text-align: left;
+}
+
+.description-hi {
+    text-align: left;
 }
 
 .title-image {
-    max-width: 100%;
+    margin: 5%;
+
 }
+
+.icon {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    color: #dfe0d4;
+}
+
+.icon:hover{
+    color: #3e92a3;
+}
+
+@media (min-width: 768px) {}
