@@ -7,8 +7,6 @@ body {
 h1 {
     font-family: Open Sans, sans-serif;
     color: #3e92a3;
-    font-size: 3.5rem;
-    line-height: 1.5
 }
 
 h2 {
@@ -21,27 +19,22 @@ a {
 }
 
 /* Containers */
-.general-placement {
+.main-heading {
+    font-size: 3.5rem;
+    line-height: 1.5
+}
+
+.stylistic-padded-positioning {
     padding: 5% 7%;
 }
 
-.description-section {
-    text-align: center;
+description-section {
+    text-align: left;
 }
 
 .description-text {
     font-size: 1.5em;
     line-height: 1.3em;
-    text-align: left;
-}
-
-.description-hi {
-    text-align: left;
-}
-
-.title-image {
-    margin: 5%;
-
 }
 
 .icon {
@@ -50,8 +43,24 @@ a {
     color: #dfe0d4;
 }
 
-.icon:hover{
+.title-image {
+    margin: 5%;
+}
+
+.icon:hover {
     color: #3e92a3;
 }
 
-@media (min-width: 768px) {}
+@media (max-width: 525px) {
+    .main-heading {
+        font-size: 2.25rem;
+    }
+
+    .title-image {
+        width: 85%;
+    }
+
+    .description-text {
+        font-size: 1.25em;
+    }
+}
